@@ -1,0 +1,43 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  color: #fbffa2;
+  background-color: #004081;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.container {
+  padding: 20px;
+}
+
+.catalogo {
+  background-color: #108cef;
+  width: 95%;
+  padding: 12px;
+  border: 2px solid #fbffa2;
+  border-radius: 10px;
+}
+
+.crop {
+  padding: 10px;
+  width: 240px;
+  height: 135px;
+  overflow: hidden;
+  display: inline-flex;
+}
+
+.crop img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
