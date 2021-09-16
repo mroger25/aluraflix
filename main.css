@@ -18,26 +18,31 @@ body {
 
 .container {
   padding: 20px;
+  width: fit-content;
 }
 
 .catalogo {
+  width: fit-content;
   background-color: #108cef;
-  width: 95%;
   padding: 12px;
   border: 2px solid #fbffa2;
   border-radius: 10px;
 }
 
+.imagens {
+  width: fit-content;
+}
+
 .crop {
   padding: 10px;
-  width: 240px;
-  height: 135px;
+  width: 30%;
+  min-width: 240px;
+  height: fit-content;
   overflow: hidden;
   display: inline-flex;
 }
 
 .crop img {
   width: 100%;
-  height: 100%;
   object-fit: cover;
 }
