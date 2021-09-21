@@ -1,48 +1,55 @@
-body {
-  font-family: "Roboto Mono", monospace;
+/* body {
+  background-color: black;
+  background-image: url(https://images5.alphacoders.com/620/thumbbig-620859.webp);
+  background-repeat: no-repeat;
+  background-position: 15% 0;
+  background-attachment: fixed;
+  font-family: "Raleway", sans-serif;
   text-align: center;
   color: #fbffa2;
-  background-color: #004081;
-}
-
-.page-logo {
-  width: 200px;
+  margin: 0px;
+  width: 100vw;
+  height: 200vh;
 }
 
 .alura-logo {
   width: 40px;
-  position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 8px;
+  right: 8px;
+  position: fixed;
+}
+
+.page-logo {
+  width: 20vw;
+}
+
+.page-title {
+  color: #108cef;
+  width: 200px;
+  font-size: 40px;
+  border: 1px solid white;
+  border-radius: 12px;
 }
 
 .container {
-  padding: 20px;
-  width: fit-content;
+  width: 50vw;
+  height: 300px;
+  background-color: darkslategray;
+} */
+
+body {
+  background-color: lightblue;
 }
 
-.catalogo {
-  width: fit-content;
-  background-color: #108cef;
-  padding: 12px;
-  border: 2px solid #fbffa2;
-  border-radius: 10px;
+h1 {
+  background-color: dodgerblue;
+  color: white;
+  text-align: center;
+  border: 2px solid tomato;
 }
 
-.imagens {
-  width: fit-content;
-}
-
-.crop {
-  padding: 10px;
-  width: 30%;
-  min-width: 240px;
-  height: fit-content;
-  overflow: hidden;
-  display: inline-flex;
-}
-
-.crop img {
-  width: 100%;
-  object-fit: cover;
+p {
+  background-color: tomato;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
 }
